@@ -1,0 +1,14 @@
+/* assets/css/custom.css */
+body {
+    font-family: 'Montserrat', sans-serif; /* Example custom font */
+  }
+  
+  .hero-overlay {
+    background-color: #000; /* solid color for the overlay */
+    opacity: 0.3;           /* adjust the dark overlay for better text visibility */
+  }
+  
+  .object-fit-cover {
+    object-fit: cover;
+  }
+  
