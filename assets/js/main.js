@@ -1,6 +1,6 @@
 async function loadHeader() {
   // Fetch the header.html from the components folder one level up
-  const response = await fetch('../../components/header.html');
+  const response = await fetch('/components/header.html');
   const headerHTML = await response.text();
   document.getElementById('header-placeholder').innerHTML = headerHTML;
 }
