@@ -3,61 +3,42 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
   <!-- Primary Meta Tags -->
-  <title>YourGuide — Make Any Adventure, Your Adventure</title>
-  <meta name="description" content="Explore the best restaurants, attractions, and hidden gems. YourGuide.city is your personal guide to unforgettable city experiences." />
+  <title>YourGuide — Shaping the Future of Travel</title>
+  <meta name="description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide. A platform focused on travel, technology, and community." />
 
   <!-- Bootstrap CSS (CDN) -->
   <link 
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
   />
-  
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css" />
 
   <!-- Favicon -->
-  <!-- (Optional) <link rel="icon" href="assets/img/favicon.ico" /> -->
+  <link rel="icon" href="assets/img/favicon.ico" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="YourGuide.city — Discover the Best of Your City" />
-  <meta property="og:description" content="Explore the best restaurants, attractions, and hidden gems." />
+  <meta property="og:title" content="YourGuide — Shaping the Future of Travel" />
+  <meta property="og:description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide." />
   <meta property="og:image" content="assets/img/hero-bg.jpg" />
   <meta property="og:url" content="https://yourguide.city" />
-  <meta name="og:site_name" content="YourGuide.city" />
+  <meta name="og:site_name" content="YourGuide" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content="yourguide.city" />
   <meta property="twitter:url" content="https://yourguide.city" />
-  <meta name="twitter:title" content="YourGuide.city — Discover the Best of Your City" />
-  <meta name="twitter:description" content="Explore the best restaurants, attractions, and hidden gems." />
+  <meta name="twitter:title" content="YourGuide — Shaping the Future of Travel" />
+  <meta name="twitter:description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide." />
   <meta name="twitter:image" content="assets/img/hero-bg.jpg" />
-
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="YourGuide Logo" width="30" height="30" class="d-inline-block align-text-top" />
-        YourGuide.city
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="guides.html">Guides</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div id="header-placeholder"></div>
+
 
   <!-- HERO SECTION WITH VIDEO BACKGROUND -->
   <section class="hero-section position-relative overflow-hidden vh-100 d-flex align-items-center" style="margin-top: 56px;">
@@ -68,64 +49,59 @@
       loop 
       playsinline 
       class="position-absolute w-100 h-100 object-fit-cover"
-      poster="assets/img/hero-bg.jpg"  <!-- fallback image -->
+      poster="assets/img/hero-bg.jpg"
       id="heroVideo"
     >
       <source src="assets/video/city-guide-hero.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-    
+
     <!-- Overlay -->
     <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></div>
-    
+
     <!-- Hero Content -->
     <div class="container position-relative text-center text-white">
-      <h1 class="display-3 fw-bold">Discover Your City’s Best</h1>
-      <p class="lead">Your personal Tour Guide, in the palm of your hand.</p>
+      <h1 class="display-3 fw-bold">Travel. Connect. Innovate.</h1>
+      <p class="lead">Combining cutting-edge technology with meaningful human connections.</p>
       <a href="guides.html" class="btn btn-lg btn-primary">Explore Guides</a>
+      <a href="roadmap.html" class="btn btn-lg btn-outline-light ms-3">See Our Roadmap</a>
     </div>
   </section>
 
-  <!-- FEATURED GUIDES SECTION -->
+  <!-- CURRENT FEATURES SECTION -->
   <section class="py-5 bg-light">
     <div class="container">
       <div class="row mb-4">
         <div class="col text-center">
-          <h2>Featured Guides</h2>
-          <p class="text-muted">Handpicked by our experts for an unforgettable experience</p>
+          <h2>What We Offer</h2>
+          <p class="text-muted">Explore the features we’ve built to enhance your travel experience</p>
         </div>
       </div>
       <div class="row g-4">
-        <!-- Example card 1 -->
         <div class="col-md-4">
           <div class="card h-100">
-            <img src="assets/img/sunset-view.jpg" class="card-img-top" alt="Sunset View" />
+            <img src="assets/img/verified-guides.jpg" class="card-img-top" alt="Verified Guides" />
             <div class="card-body">
-              <h5 class="card-title">Romantic Sunset Spots</h5>
-              <p class="card-text">Explore the most breathtaking sunset viewpoints in the city.</p>
-              <a href="#" class="btn btn-outline-primary">Read More</a>
+              <h5 class="card-title">Verified Local Guides</h5>
+              <p class="card-text">Connect with guides you can trust for safe and authentic experiences.</p>
             </div>
           </div>
         </div>
-        <!-- Example card 2 -->
         <div class="col-md-4">
           <div class="card h-100">
-            <img src="assets/img/street-food.jpg" class="card-img-top" alt="Street Food" />
+            <img src="assets/img/group-tours.jpg" class="card-img-top" alt="Group Travel" />
             <div class="card-body">
-              <h5 class="card-title">Must-Try Street Foods</h5>
-              <p class="card-text">Taste your way through bustling markets and authentic flavors.</p>
-              <a href="#" class="btn btn-outline-primary">Read More</a>
+              <h5 class="card-title">Group Travel Features</h5>
+              <p class="card-text">Share costs, meet like-minded travelers, and explore together.</p>
             </div>
           </div>
         </div>
-        <!-- Example card 3 -->
         <div class="col-md-4">
           <div class="card h-100">
-            <img src="assets/img/local-art.jpg" class="card-img-top" alt="Local Art" />
+            <img src="assets/img/ai-recommendations.jpg" class="card-img-top" alt="AI Recommendations" />
             <div class="card-body">
-              <h5 class="card-title">Local Art & Culture</h5>
-              <p class="card-text">Immerse yourself in galleries, street art, and creative workshops.</p>
-              <a href="#" class="btn btn-outline-primary">Read More</a>
+              <h5 class="card-title">AI-Powered Recommendations</h5>
+              <p class="card-text">Get personalized suggestions based on your travel style.</p>
             </div>
           </div>
         </div>
@@ -133,80 +109,21 @@
     </div>
   </section>
 
-  <!-- TRENDING VENUES (EXAMPLE) -->
-  <section class="py-5">
+  <!-- ROADMAP TEASER SECTION -->
+  <section class="py-5 text-center" style="background: #333; color: #fff;">
     <div class="container">
-      <div class="row mb-4">
-        <div class="col text-center">
-          <h2>Trending Venues</h2>
-          <p class="text-muted">What’s hot in the city right now</p>
-        </div>
-      </div>
-      <div class="row g-4">
-        <!-- Example of horizontal card or media object -->
-        <div class="col-md-6">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/hot-venue.jpg" alt="Hot Venue" class="flex-shrink-0 me-3 rounded" style="width: 120px; height: 80px; object-fit: cover;" />
-            <div>
-              <h5>Live Music Night at The River Cafe</h5>
-              <p class="small text-muted">Amazing cocktails and acoustic sets every weekend.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Another card... -->
-        <div class="col-md-6">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/rooftop-bar.jpg" alt="Rooftop Bar" class="flex-shrink-0 me-3 rounded" style="width: 120px; height: 80px; object-fit: cover;" />
-            <div>
-              <h5>Skyline Rooftop Bar</h5>
-              <p class="small text-muted">Sip signature cocktails with a panoramic view of the city.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Add more as needed -->
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS SECTION -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col text-center">
-          <h2>What Locals Say</h2>
-          <p class="text-muted">Real experiences from real people</p>
-        </div>
-      </div>
-      <div class="row g-4">
-        <!-- Example testimonial -->
-        <div class="col-md-4">
-          <div class="border rounded p-3 h-100">
-            <p class="fst-italic">"YourGuide.city helped me plan the perfect date night! We discovered a rooftop bar we never knew existed."</p>
-            <p class="fw-bold mb-0">— Alex R.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="border rounded p-3 h-100">
-            <p class="fst-italic">"The restaurant guides are spot on. We had the best dim sum experience thanks to YourGuide."</p>
-            <p class="fw-bold mb-0">— Sophia T.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="border rounded p-3 h-100">
-            <p class="fst-italic">"I’ve lived here for years, and YourGuide introduced me to hidden gems I never knew about!"</p>
-            <p class="fw-bold mb-0">— Marcus B.</p>
-          </div>
-        </div>
-      </div>
+      <h2>Our Roadmap</h2>
+      <p>See what we’re building now, next, and later.</p>
+      <a href="roadmap.html" class="btn btn-lg btn-primary">View Roadmap</a>
     </div>
   </section>
 
   <!-- CALL TO ACTION -->
-  <section class="py-5 text-center text-white" style="background: #333;">
+  <section class="py-5 text-center text-white" style="background: #444;">
     <div class="container">
-      <h2>Ready to Explore?</h2>
-      <p class="mb-4">Find top-rated experiences for your next adventure in the city.</p>
-      <a href="guides.html" class="btn btn-lg btn-primary">See Guides</a>
+      <h2>Have Feature Ideas?</h2>
+      <p>Help us shape the future of travel by sharing your suggestions.</p>
+      <a href="suggestions.html" class="btn btn-lg btn-outline-light">Submit Suggestions</a>
     </div>
   </section>
 
@@ -214,7 +131,6 @@
   <footer class="py-4 bg-dark text-white">
     <div class="container text-center">
       <div class="mb-2">
-        <!-- Social icons (example) -->
         <a href="https://twitter.com/YourGuideCity" class="text-white me-3">Twitter</a> |
         <a href="https://instagram.com/YourGuideCity" class="text-white ms-3">Instagram</a>
       </div>
