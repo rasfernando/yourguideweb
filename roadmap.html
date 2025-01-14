@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Feature Roadmap - YourGuide</title>
+  <title>Mobile App Roadmap - YourGuide</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/roadmap.css" />
 </head>
 <body>
   <!-- Header -->
-    <div id="header-placeholder"></div>
+  <div id="header-placeholder"></div>
 
   <!-- Hero Video Section -->
   <section class="hero-section position-relative">
@@ -19,41 +19,76 @@
     </video>
     <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
     <div class="container text-white text-center position-relative hero-text">
-      <h1 class="display-3 fw-bold">Upcoming Features</h1>
-      <p class="lead">See what we’re building and share your ideas for the future of YourGuide.</p>
+      <h1 class="display-3 fw-bold">Our Mobile App Roadmap</h1>
+      <p class="lead">Discover how we’re making it easier to find attraction info on the go—without replacing the human touch of local guides.</p>
     </div>
   </section>
 
-  <!-- Roadmap Section (Overlayed on Video) -->
+  <!-- Intro/Explanation Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Why a Mobile App?</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Our mobile app gives you **on-demand access** to key attractions, restaurants, and hidden gems. 
+            Whether you need quick directions, ticket info, or recommendations, our goal is to 
+            make travel planning simpler wherever you are.
+          </p>
+          <p>
+            But we know a **truly immersive experience** goes far beyond facts and figures. That’s why 
+            our app also showcases local guides who can give you deeper context, personal stories, 
+            and the unique perspectives only a real person can offer.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img 
+            src="assets/img/mobile-preview.jpg" 
+            alt="Mobile App Preview" 
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section (Overlay) -->
   <section class="roadmap position-absolute top-50 start-50 translate-middle w-100">
     <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col text-center text-white">
+          <h2 class="fw-bold">Development Phases</h2>
+          <p class="lead">See what’s happening now, what’s coming next, and what we have planned for the future.</p>
+        </div>
+      </div>
+
       <div class="row">
         <!-- Now Column -->
-        <div class="col-md-4">
-          <div class="roadmap-column bg-light shadow-sm p-3 rounded">
-            <h2 class="text-center text-primary">Now</h2>
+        <div class="col-md-4 mb-3">
+          <div class="roadmap-column bg-light shadow-sm p-3 rounded h-100">
+            <h3 class="text-center text-primary">Now</h3>
             <div id="now-tickets" class="roadmap-tickets">
-              <!-- Tickets will populate dynamically -->
+              <!-- Populated by roadmap.js -->
             </div>
           </div>
         </div>
 
         <!-- Next Column -->
-        <div class="col-md-4">
-          <div class="roadmap-column bg-light shadow-sm p-3 rounded">
-            <h2 class="text-center text-success">Next</h2>
+        <div class="col-md-4 mb-3">
+          <div class="roadmap-column bg-light shadow-sm p-3 rounded h-100">
+            <h3 class="text-center text-success">Next</h3>
             <div id="next-tickets" class="roadmap-tickets">
-              <!-- Tickets will populate dynamically -->
+              <!-- Populated by roadmap.js -->
             </div>
           </div>
         </div>
 
         <!-- Later Column -->
-        <div class="col-md-4">
-          <div class="roadmap-column bg-light shadow-sm p-3 rounded">
-            <h2 class="text-center text-warning">Later</h2>
+        <div class="col-md-4 mb-3">
+          <div class="roadmap-column bg-light shadow-sm p-3 rounded h-100">
+            <h3 class="text-center text-warning">Later</h3>
             <div id="later-tickets" class="roadmap-tickets">
-              <!-- Tickets will populate dynamically -->
+              <!-- Populated by roadmap.js -->
             </div>
           </div>
         </div>
@@ -64,8 +99,8 @@
   <!-- Ticket Submission Section -->
   <section class="submit-ticket py-5 bg-dark text-white">
     <div class="container text-center">
-      <h2>Submit Your Idea</h2>
-      <p>Have a feature idea? Let us know, and we’ll consider it for our roadmap.</p>
+      <h2>Share Your Ideas</h2>
+      <p class="mb-4">Have a feature in mind for our app? We’d love to hear it.</p>
       <form id="ticket-form" class="text-start mx-auto" style="max-width: 600px;">
         <div class="mb-3">
           <label for="ticket-title" class="form-label">Feature Title</label>
@@ -80,9 +115,9 @@
     </div>
   </section>
 
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/roadmap.js"></script>
   <script src="./assets/js/main.js"></script>
-
 </body>
 </html>
