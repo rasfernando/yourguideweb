@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Primary Meta Tags -->
-  <title>YourGuide — Shaping the Future of Travel</title>
-  <meta name="description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide. A platform focused on travel, technology, and community." />
+  
+  <title>YourGuide — Coming Soon</title>
+  <meta name="description" content="Page under construction. Coming soon!" />
 
   <!-- Bootstrap CSS (CDN) -->
   <link 
@@ -14,137 +13,48 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
   />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/custom.css" />
+  <!-- Custom CSS (optional) -->
+  <!-- <link rel="stylesheet" href="assets/css/custom.css" /> -->
 
-  <!-- Favicon -->
-  <link rel="icon" href="assets/img/favicon.ico" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="YourGuide — Shaping the Future of Travel" />
-  <meta property="og:description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide." />
-  <meta property="og:image" content="assets/img/hero-bg.jpg" />
-  <meta property="og:url" content="https://yourguide.city" />
-  <meta name="og:site_name" content="YourGuide" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="yourguide.city" />
-  <meta property="twitter:url" content="https://yourguide.city" />
-  <meta name="twitter:title" content="YourGuide — Shaping the Future of Travel" />
-  <meta name="twitter:description" content="Explore the best restaurants, attractions, and hidden gems with YourGuide." />
-  <meta name="twitter:image" content="assets/img/hero-bg.jpg" />
+  <style>
+    /* Inline CSS for quick customization */
+    body {
+      margin: 0;
+      padding: 0;
+      /* Replace #333 with any color or a background image if preferred */
+      background: #333 url('assets/img/hero-bg.jpg') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+    }
+    .coming-soon-container {
+      /* Full viewport height to center content vertically */
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5); /* Slight overlay if you have an image */
+    }
+    .coming-soon-heading {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    .coming-soon-subtext {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-
-  <div id="header-placeholder"></div>
-
-
-  <!-- HERO SECTION WITH VIDEO BACKGROUND -->
-  <section class="hero-section position-relative overflow-hidden vh-100 d-flex align-items-center" style="margin-top: 56px;">
-    <!-- Video Background -->
-    <video 
-      autoplay 
-      muted 
-      loop 
-      playsinline 
-      class="position-absolute w-100 h-100 object-fit-cover"
-      poster="assets/img/hero-bg.jpg"
-      id="heroVideo"
-    >
-      <source src="assets/video/city-guide-hero.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-
-    <!-- Overlay -->
-    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></div>
-
-    <!-- Hero Content -->
-    <div class="container position-relative text-center text-white">
-      <h1 class="display-3 fw-bold">Discovery. Connection. Community.</h1>
-      <p class="lead">Combining cutting-edge technology with meaningful human connections.</p>
-      <a href="guides.html" class="btn btn-lg btn-primary">Explore Guides</a>
-      <a href="roadmap.html" class="btn btn-lg btn-outline-light ms-3">See Our Roadmap</a>
-    </div>
-  </section>
-
-  <!-- CURRENT FEATURES SECTION -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col text-center">
-          <h2>What We Offer</h2>
-          <p class="text-muted">Explore the features we’ve built to enhance your travel experience</p>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="assets/img/verified-guides.jpg" class="card-img-top" alt="Verified Guides" />
-            <div class="card-body">
-              <h5 class="card-title">Verified Local Guides</h5>
-              <p class="card-text">Connect with guides you can trust for safe and authentic experiences.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="assets/img/group-tours.jpg" class="card-img-top" alt="Group Travel" />
-            <div class="card-body">
-              <h5 class="card-title">Group Travel Features</h5>
-              <p class="card-text">Share costs, meet like-minded travelers, and explore together.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="assets/img/ai-recommendations.jpg" class="card-img-top" alt="AI Recommendations" />
-            <div class="card-body">
-              <h5 class="card-title">AI-Powered Recommendations</h5>
-              <p class="card-text">Get personalized suggestions based on your travel style.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ROADMAP TEASER SECTION -->
-  <section class="py-5 text-center" style="background: #333; color: #fff;">
-    <div class="container">
-      <h2>Our Roadmap</h2>
-      <p>See what we’re building now, next, and later.</p>
-      <a href="roadmap.html" class="btn btn-lg btn-primary">View Roadmap</a>
-    </div>
-  </section>
-
-  <!-- CALL TO ACTION -->
-  <section class="py-5 text-center text-white" style="background: #444;">
-    <div class="container">
-      <h2>Have Feature Ideas?</h2>
-      <p>Help us shape the future of travel by sharing your suggestions.</p>
-      <a href="suggestions.html" class="btn btn-lg btn-outline-light">Submit Suggestions</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="py-4 bg-dark text-white">
-    <div class="container text-center">
-      <div class="mb-2">
-        <a href="https://twitter.com/YourGuideCity" class="text-white me-3">Twitter</a> |
-        <a href="https://instagram.com/YourGuideCity" class="text-white ms-3">Instagram</a>
-      </div>
-      <p class="small mb-0">&copy; 2025 YourGuide.city — All Rights Reserved.</p>
-    </div>
-  </footer>
+  <div class="coming-soon-container">
+    <h1 class="coming-soon-heading">Coming Soon</h1>
+    <p class="coming-soon-subtext">We’re working on something awesome. Stay tuned!</p>
+  </div>
 
   <!-- Bootstrap JS (CDN) -->
   <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
   </script>
-
-  <!-- Custom JS -->
-  <script src="assets/js/main.js"></script>
-
 </body>
 </html>
